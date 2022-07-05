@@ -24,6 +24,7 @@ public class Clickable : MonoBehaviour
     float currentDespawnTime;
     bool clicked = true;
     float reactionTime = 0;
+    //bool firstInit = true;
     ClickableScreen clickableScreen;
     // Start is called before the first frame update
     void Start()
@@ -64,6 +65,7 @@ public class Clickable : MonoBehaviour
             {
                 clicked = false;
                 clickableScreen.SpawnNewClickable();
+                //firstInit = false;
             }
         }
         else

@@ -2033,9 +2033,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   participantNumber: 1
-  retargetingRound: 1
+  retargetingRound: 3
   savingPath: C:/Users/tills/Desktop/SoSe 22/Retargeting Results/
   doneSymbol: {fileID: 439293947}
+  retHandL: {fileID: 770852514}
+  retHandR: {fileID: 401741514}
 --- !u!4 &1060062018
 Transform:
   m_ObjectHideFlags: 0
